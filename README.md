@@ -14,7 +14,7 @@ Alternatively, you can go to `%USERPROFILE%\AppData\Roaming\Blender Foundation\B
 
 ![image](https://github.com/floatayy/sp3_rename/assets/91428727/7708265e-2e22-40b7-8401-6c23b267df54)
 
-Now, to actually use the addon, be in Object Mode and add any piece of gear that you want, whether it's clothing or shoes, then select it (orange outline). On your keyboard, press N to open the side panel of the viewport if it isn't open already, then look out for a tab labelled `Sp3 Rename`. Finally, click the `Rename All Vertex Groups` button to rename all vertex groups in one go!
+Now, to actually use the addon, be in Object Mode and add any piece of gear that you want, whether it's clothing or shoes, then select it (orange outline). On your keyboard, press N to open the side panel of the viewport if it isn't open already, then look out for a tab labelled `Sp3 Rename`. Click the `Rename All Vertex Groups` button to rename all vertex groups in one go, and finally, shift-click the armature and parent it via Armature Deform!
 
 ![image](https://github.com/floatayy/sp3_rename/assets/91428727/0f644774-673f-4632-91a9-acff6d3163ca)
 
