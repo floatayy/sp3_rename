@@ -18,9 +18,11 @@ Now, to actually use the addon, be in Object Mode and add any piece of gear that
 
 ![image](https://github.com/floatayy/sp3_rename/assets/91428727/0f644774-673f-4632-91a9-acff6d3163ca)
 
-### Notes and credits
+## Notes and credits
 
 You can only rename all vertex groups for one piece of gear at a time, so you have to click a piece of gear once, click the button, and repeat for the next gear, but it's a pretty quick process so it's only a matter of a few clicks and seconds to get things up and running.
+
+This process is not needed for headgear. For headgear, all you do is select the headgear first, shift-click the armature/rig, go to Pose Mode to select the head bone, and parent by Bone.
 
 Downloads to the gear models will not be provided.
 
