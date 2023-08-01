@@ -16,14 +16,12 @@ from . rename_3d import RenameVertexGroups_Panel
 classes = (RenameVertexGroups_Op, RenameVertexGroups_Panel)
 
 def register():
-    print("Hmm")
     bpy.utils.register_class(RenameVertexGroups_Op)
     bpy.utils.register_class(RenameVertexGroups_Panel)
 
 def unregister():
     for c in classes:
         bpy.utils.unregister_class(c)
-    print("Hm...")
 
 
 if __name__ == '__main__':

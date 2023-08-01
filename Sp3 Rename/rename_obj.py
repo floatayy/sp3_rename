@@ -65,7 +65,7 @@ GROUP_DICT = {
 }
 
 class RenameVertexGroups_Op(Operator):
-    """Test"""
+    """This button does all the magic! (Note: one-at-a-time selections only)"""
     bl_idname = "surimi.rename_vertex_groups"
     bl_label = "Rename vertex groups"
     bl_options = {'REGISTER', 'UNDO'}
