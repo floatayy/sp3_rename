@@ -24,6 +24,8 @@ You can only rename all vertex groups for one piece of gear at a time, so you ha
 
 This process is not needed for headgear. For headgear, all you do is select the headgear first, shift-click the armature/rig, go to Pose Mode to select the head bone, and parent by Bone.
 
+Compatibility is broken with Splatoon 2 and Sp2 SFM models due to discrepancies caused by differing finger flexes. Please avoid using gloves altogether unless it's Splatoon 3 models or your self-made ones. 
+
 Downloads to the gear models will not be provided.
 
 Script originally written by [piparkaq](https://twitter.com/piparkaq), side panel implementation by me.
