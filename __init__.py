@@ -1,8 +1,8 @@
 bl_info = {
     "name": "Sp3 Rename",
     "description": "Rename Vertex Groups in ripped Splatoon 3 models to make them compatible with TeenageApple's Splatoon 3 character rigs.",
-    "author": "piparkaq (original script), Floaty (UI implementation)",
-    "version": (1, 0),
+    "author": "piparkaq (original Sp3 script), Floaty (UI & Sp2 implementation)",
+    "version": (2, 0),
     "blender": (3, 0, 0),
     "category": "Object",
     "doc_url": "https://github.com/floatayy/sp3_rename",
@@ -10,19 +10,24 @@ bl_info = {
 
 import bpy
 
-from . rename_obj import RenameVertexGroups_Op
-from . rename_3d import RenameVertexGroups_Panel
-
-classes = (RenameVertexGroups_Op, RenameVertexGroups_Panel)
-
-def register():
-    bpy.utils.register_class(RenameVertexGroups_Op)
-    bpy.utils.register_class(RenameVertexGroups_Panel)
-
-def unregister():
-    for c in classes:
-        bpy.utils.unregister_class(c)
+from .rename_obj_3 import RenameVertexGroups_Op_Sp3
+from .rename_obj_3 import RenameVertexGroups_Shoes_Sp3
+from .rename_obj_2 import RenameVertexGroups_Op_Sp2
+from .rename_obj_2 import RenameVertexGroups_Shoes_Sp2
+from .rename_3d import RenameVertexGroups_Panel_Sp3
+from .rename_3d import RenameVertexGroups_Panel_Sp2
 
 
-if __name__ == '__main__':
+classes = (
+    RenameVertexGroups_Op_Sp3,
+    RenameVertexGroups_Shoes_Sp3,
+    RenameVertexGroups_Op_Sp2,
+    RenameVertexGroups_Shoes_Sp2,
+    RenameVertexGroups_Panel_Sp3,
+    RenameVertexGroups_Panel_Sp2,
+)
+
+register, unregister = bpy.utils.register_classes_factory(classes)
+
+if __name__ == "__main__":
     register()

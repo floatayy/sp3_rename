@@ -64,10 +64,10 @@ GROUP_DICT = {
         'Finger_E_3_R': 'DEF-f_pinky.03.R',
     }
 
-class RenameVertexGroups_Panel(Panel):
+class RenameVertexGroups_Panel_Sp3(Panel):
     bl_space_type = "VIEW_3D"
     bl_region_type = "UI"
-    bl_label = "Sp3 Rename"
+    bl_label = "Splatoon 3 models"
     bl_category = "Sp3 Rename"
 
 
@@ -78,6 +78,32 @@ class RenameVertexGroups_Panel(Panel):
         row = layout.row()
         col = row.column()
         col.operator("surimi.rename_vertex_groups", text="Rename All Vertex Groups")
+        col.operator("surimi.rename_vertex_groups_shoes_sp3", text="Mirror & Rename Shoes")
+    
+    def execute(self, context):
+        groups = context.object.vertex_groups
+        lookup_keys = GROUP_DICT.keys()
+
+        for g in groups:
+            if g.name in lookup_keys:
+                g.name = GROUP_DICT[g.name]
+
+        return {'FINISHED'}
+    
+class RenameVertexGroups_Panel_Sp2(Panel):
+    bl_space_type = "VIEW_3D"
+    bl_region_type = "UI"
+    bl_label = "Splatoon 2 models"
+    bl_category = "Sp3 Rename"
+    
+    def draw(self, context):
+
+        layout = self.layout
+
+        row = layout.row()
+        col = row.column()
+        col.operator("tentakuruzu.rename_vertex_groups", text="Rename All Vertex Groups")
+        col.operator("tentakuruzu.rename_vertex_groups_shoes", text="Mirror & Rename Shoes")
     
     def execute(self, context):
         groups = context.object.vertex_groups
