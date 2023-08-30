@@ -165,7 +165,7 @@ class RenameVertexGroups_Op_Sp3(Operator):
     
 class RenameVertexGroups_Shoes_Sp3(Operator):
     """Only use with shoes!"""
-    bl_idname = "surimi.rename_vertex_groups_shoes_sp3"
+    bl_idname = "surimi.rename_vertex_groups_shoes"
     bl_label = "Rename and add vertex groups on shoes"
     bl_options = {'REGISTER', 'UNDO'}
     

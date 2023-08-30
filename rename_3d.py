@@ -78,7 +78,7 @@ class RenameVertexGroups_Panel_Sp3(Panel):
         row = layout.row()
         col = row.column()
         col.operator("surimi.rename_vertex_groups", text="Rename All Vertex Groups")
-        col.operator("surimi.rename_vertex_groups_shoes_sp3", text="Mirror & Rename Shoes")
+        col.operator("surimi.rename_vertex_groups_shoes", text="Mirror & Rename Shoes")
     
     def execute(self, context):
         groups = context.object.vertex_groups
