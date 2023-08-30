@@ -16,7 +16,7 @@ Alternatively, you can go to `%USERPROFILE%\AppData\Roaming\Blender Foundation\B
 
 ## How to use (clothing)
 
-Now, to actually use the addon, be in Object Mode and add any piece of gear that you want, whether it's clothing or shoes, then select it (orange outline). On your keyboard, press N to open the side panel of the viewport if it isn't open already, then look out for a tab labelled `Sp3 Rename`. Click the `Rename All Vertex Groups` button to rename all vertex groups in one go, and finally, shift-click the armature/rig and parent it via Armature Deform! The addon will automatically remove the gear from its unnecessary armature.
+Now, to actually use the addon, be in Object Mode and add any piece of gear that you want, whether it's clothing or shoes, then select it (orange outline). On your keyboard, press N to open the side panel of the viewport if it isn't open already, then look out for a tab labelled `Sp3 Rename`. Click the `Rename All Vertex Groups` button to rename all vertex groups in one go, and finally, shift-click the armature/rig and parent it via Armature Deform! This function will automatically remove the gear from its unnecessary armature.
 
 ![image](https://github.com/floatayy/sp3_rename/assets/91428727/0f644774-673f-4632-91a9-acff6d3163ca)
 
@@ -24,6 +24,7 @@ Now, to actually use the addon, be in Object Mode and add any piece of gear that
 
 There is also a function to prep shoes up too! All you ever need to do is importing the shoe you want to import and select its mesh. Open the N-panel of the viewport, find the `Sp3 Rename` tab, then click the `Mirror & Rename Shoes` button.
 This function not only will fix up Vertex Groups for use with Armature Deform, but it will also automatically position the shoes to the feet of your character (assuming it's all in the origin of the scene's world) and mirror a shoe for the opposite foot.  
+And finally, select the shoe's meshes again, shift-click the armature/rig, and parent via Armature Deform! This function will also automatically remove the gear from its unnecessary armature.
 
 https://github.com/floatayy/sp3_rename/assets/91428727/d1236251-09e8-45ba-b810-6618f5f5f1e3
 
