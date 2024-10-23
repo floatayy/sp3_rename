@@ -14,7 +14,7 @@ Installing and enabling the addon is simple! Go to the the Releases tab and down
 
 Now you should see `Sp3 Rename` among the addons in your list, so enable the checkbox in it.
 
-Alternatively, you can go to `%USERPROFILE%\AppData\Roaming\Blender Foundation\Blender\[version]\scripts\addons\` for pre-4.2 or `%USERPROFILE%\AppData\Roaming\Blender Foundation\Blender\[version]\extensions\user_default\`, and extract the `Sp3 Rename` folder of the zip there.
+Alternatively, you can go to `%USERPROFILE%\AppData\Roaming\Blender Foundation\Blender\[version]\scripts\addons\` for pre-4.2 or `%USERPROFILE%\AppData\Roaming\Blender Foundation\Blender\[version]\extensions\user_default\` for 4.2, and extract the `Sp3 Rename` folder of the zip there.
 
 ![image](https://github.com/user-attachments/assets/29da5796-c06d-4335-bd2c-c71cf05f976a)
 
