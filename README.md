@@ -1,7 +1,7 @@
 # Sp3 Rename
 Hello, visitor! Thank you for coming by.
 
-This addon for Blender 3.x allows to rename Vertex Groups to improve compatibility with [TeenageApple's Splatoon 3 character rigs](https://drive.google.com/drive/folders/1GwLTJGT2E3OAJ-XYV2HEyACjJc2gBjaK).
+This addon for Blender 3.x allows to rename Vertex Groups to improve compatibility with [TeenageApple's Splatoon 3 character rigs](https://drive.google.com/drive/folders/1GwLTJGT2E3OAJ-XYV2HEyACjJc2gBjaK) (and/or any other applicable Rigify rig!)
 
 ## What is this?
 In case you wonder what this does and what this means, it's pretty simple! This allows you to use the existing weights of a piece of gear in a Splatoon 3 model ripped from the game files in a way that the rigs by TeenageApple understand. The intent is to make posing for the gear as accurate as possible, while you don't have to massively modify any gear models that you've added. 
