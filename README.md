@@ -30,9 +30,8 @@ https://github.com/floatayy/sp3_rename/assets/91428727/d1236251-09e8-45ba-b810-6
 
 ## Notes and credits
 
-You can only rename all vertex groups for one piece of gear at a time, so you have to click a piece of gear once, click the button, and repeat for the next gear, but it's a pretty quick process so it's only a matter of a few clicks and seconds to get things up and running.
-
-Similarly to the above, if a piece of gear has multiple meshes/pieces, each mesh has to be treated the same. Select it, click the `Rename All Vertex Groups` button, repeat for the extra meshes, align everything to the body, and do Armature Deform.
+You may rename all vertex groups for multiple pieces of gear at once, but under the current implementation, this operation must be done in a specific order when you select the objects.
+![image](https://github.com/user-attachments/assets/fa5d5236-b902-42bb-9c54-da76a1a6c65a)
 
 This process is not needed for headgear. For headgear, all you do is select the headgear first, shift-click the armature/rig, go to Pose Mode to select the head bone, and parent by Bone.
 
@@ -40,4 +39,4 @@ Compatibility is broken with Splatoon 2 and Sp2 SFM models due to discrepancies 
 
 Downloads to the gear models will not be provided.
 
-Script originally written by [piparkaq](https://twitter.com/piparkaq), side panel implementation by me.
+Script originally written by [piparkaq](https://bsky.app/profile/bankara.ink), side panel implementation by me.
