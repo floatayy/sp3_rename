@@ -1,0 +1,12 @@
+schema_version = "1.0.0"
+
+id = "sp3rename"
+name = "Sp3 Rename"
+maintainer = "piparkaq (original Sp3 script), Floaty (UI & Sp2 implementation)"
+version = "3.0.0"
+tagline = "Batch-rename Vertex Groups in ripped Splatoon 3 models to make them compatible with Rigify-compatible Splatoon 3 character rigs."
+type = "add-on"
+website = "https://github.com/floatayy/sp3_rename"
+tags = ["3D View", "Object", "Rigging"]
+license = ["AGPL-3.0-or-later"]
+blender_version_min = "3.4.0"
