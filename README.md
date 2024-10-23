@@ -8,23 +8,29 @@ In case you wonder what this does and what this means, it's pretty simple! This 
 
 ## How to install
 
-Installing and enabling the addon is simple! Download this repo as a zip file (or head to the releases tab, whichever works best for you). It is important to note, __do not extract the zip file__. Open Blender and go to `Edit -> Preferences`. In the Preferences window, go to `Add-ons`, click `Install...`, and locate and install the zip file that you've just downloaded. Now you should see `Sp3 Rename` among the addons in your list, so enable the checkbox in it.
+Installing and enabling the addon is simple! Go to the the Releases tab and download the file that pertains to your Blender version (`4.2` if you're using Blender 4.2 or newer, otherwise `pre-4.2`). It is important to note, __do not extract the zip file__.
+- In 4.2 and newer, take the .zip file and drag-and-drop it anywhere in Blender.
+- In 4.1 and prior, go to `Edit -> Preferences`. In the Preferences window, go to `Add-ons`, click `Install...`, and locate and install the zip file that you've just downloaded.
 
-Alternatively, you can go to `%USERPROFILE%\AppData\Roaming\Blender Foundation\Blender\[version]\scripts\addons\` and extract the `Sp3 Rename` folder of the zip there.
+Now you should see `Sp3 Rename` among the addons in your list, so enable the checkbox in it.
 
-![image](https://github.com/floatayy/sp3_rename/assets/91428727/7708265e-2e22-40b7-8401-6c23b267df54)
+Alternatively, you can go to `%USERPROFILE%\AppData\Roaming\Blender Foundation\Blender\[version]\scripts\addons\` for pre-4.2 or `%USERPROFILE%\AppData\Roaming\Blender Foundation\Blender\[version]\extensions\user_default\`, and extract the `Sp3 Rename` folder of the zip there.
+
+![image](https://github.com/user-attachments/assets/29da5796-c06d-4335-bd2c-c71cf05f976a)
+
 
 ## How to use (clothing)
 
-Now, to actually use the addon, be in Object Mode and add any piece of gear that you want, whether it's clothing or shoes, then select it (orange outline). On your keyboard, press N to open the side panel of the viewport if it isn't open already, then look out for a tab labelled `Sp3 Rename`. Click the `Rename All Vertex Groups` button to rename all vertex groups in one go, and finally, shift-click the armature/rig and parent it via Armature Deform! This function will automatically remove the gear from its unnecessary armature.
+Now, to actually use the addon, enter Object Mode and add any piece of clothing that you want it, then select it (orange outline). On your keyboard, press N to open the side panel of the viewport if it isn't open already, then look out for a tab labelled `Sp3 Rename`. Click the `Fix Clothes` button to rename all vertex groups in one go, and finally, shift-click the armature/rig and parent it via Armature Deform!
 
-![image](https://github.com/floatayy/sp3_rename/assets/91428727/0f644774-673f-4632-91a9-acff6d3163ca)
+![image](https://github.com/user-attachments/assets/be9cc8bb-83e3-495b-9410-9fea159a3e36)
+
 
 ## How to use (shoes)
 
-There is also a function to prep shoes up too! All you ever need to do is importing the shoe you want to import and select its mesh. Open the N-panel of the viewport, find the `Sp3 Rename` tab, then click the `Mirror & Rename Shoes` button.
+There is also a function to prep shoes up too! All you ever need to do is importing the shoe you want to import and select its mesh. Open the N-panel of the viewport, find the `Sp3 Rename` tab, then click the `Fix Shoes` button.
 This function not only will fix up Vertex Groups for use with Armature Deform, but it will also automatically position the shoes to the feet of your character (assuming it's all in the origin of the scene's world) and mirror a shoe for the opposite foot.  
-And finally, select the shoe's meshes again, shift-click the armature/rig, and parent via Armature Deform! This function will also automatically remove the gear from its unnecessary armature.
+And finally, select the shoe's meshes again, shift-click the armature/rig, and parent via Armature Deform! This function will automatically remove the gear from its unnecessary armature.
 
 https://github.com/floatayy/sp3_rename/assets/91428727/d1236251-09e8-45ba-b810-6618f5f5f1e3
 
